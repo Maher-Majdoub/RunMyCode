@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-style: normal;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 7px;
+    text-align: center;
+}
+
+td {
+    font-weight: 400;
+}
+
+.color-gray {
+    color: #919191;
+}
+
+.color-green {
+    color: #4ec34e
+}
+
+.color-red {
+    color: #fe1818
+}
+
+.w-110 {
+    width: 110px;
+}
+
+input {
+    font-size: 16px;
+    padding: 2px
+}
+
+textarea {
+    padding: 2px;
+    font-size: 16px;
+}

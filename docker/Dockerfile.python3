@@ -1,0 +1,9 @@
+FROM python:3.10-alpine
+
+WORKDIR /usr/src/app
+
+RUN apk add coreutils
+
+RUN addgroup python3 && adduser -SG python3 python3
+
+USER python3

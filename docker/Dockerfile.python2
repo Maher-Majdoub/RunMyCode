@@ -1,0 +1,9 @@
+FROM python:2-alpine
+
+WORKDIR /usr/src/app
+
+RUN apk add coreutils
+
+RUN addgroup python2 && adduser -SG python2 python2
+
+USER python2
